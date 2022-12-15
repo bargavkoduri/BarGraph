@@ -4,14 +4,14 @@ export default function Bar(props) {
   console.log(window.innerHeight)
   let style_obj = {
     transition: "0.7s",
-    width: "150px",
+    width: "130px",
     backgroundColor: color,
     height: height,
     position : "fixed",
     bottom : "17rem"
   };
   return (
-      <div style={{ display: "inline-block",width : "22rem",position : "relative"}}>
+      <div style={{ display: "inline-block",width : "18rem",position : "relative"}}>
         <div style={style_obj}>
         </div>
         <div style={{width : "150px",position : "fixed",bottom : "14rem"}}>

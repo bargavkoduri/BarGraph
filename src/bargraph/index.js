@@ -29,8 +29,8 @@ export default function BarGraph() {
   }
 
   return (
-    <div className="container" style={{ paddingLeft: "15rem" }}>
-      <div>
+    <div className="container-fluid" style={{ paddingLeft: "35%" }}>
+      <div className="row">
         <Bar color={"#90EE90"} height={height.height_easy} name={"Easy"} />
         <Bar color={"#FFD580"} height={height.height_med} name={"Medium"} />
         <Bar color={"#FF7276"} height={height.height_hard} name={"Hard"} />
