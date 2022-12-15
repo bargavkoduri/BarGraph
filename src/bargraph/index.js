@@ -36,7 +36,7 @@ export default function BarGraph() {
         <Bar color={"#FF7276"} height={height.height_hard} name={"Hard"} />
       </div>
 
-      <div style={{ position: "fixed", bottom: "10rem"}}>
+      <div style={{ position: "fixed", bottom: "7rem"}}>
         <div style={{ display: "inline-block", width: "300px" }}>
           <label htmlFor="easy">Easy</label>
           <input
